@@ -51,6 +51,19 @@
         letter-spacing: 5px;
       }
 
+      #body-text {
+        width: 60%;
+        font-family: "din-2014", sans-serif;
+        font-weight: 100;
+        margin: 0px auto;
+        position: relative;
+        font-size: 26px;
+        color: #ffffff;
+        text-align: center;
+        letter-spacing: 5px;
+        padding-bottom: 1%;
+      }
+
       a {
         color: #ffffff;
         text-decoration: none;
@@ -81,6 +94,13 @@
         margin-bottom: 30px;
       }
 
+      .socials {
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+      }
+
       .logo-image {
         display: inline-block;
         width: 20%;
@@ -91,7 +111,7 @@
         width: 3%;
         font-size: 8px;
         align-items: center;
-        margin-right: 1%;
+        margin-right: 1.5%;
       }
 
       @media only screen and (max-width: 750px) {
@@ -115,8 +135,25 @@
           letter-spacing: 10px;
         }
 
+        #body-text {
+          width: 60%;
+          font-family: "din-2014", sans-serif;
+          margin: 0px auto;
+          position: relative;
+          font-size: 17px;
+          color: #ffffff;
+          text-align: center;
+          letter-spacing: 3px;
+          padding-bottom: 1%;
+        }
+
         .logo-image {
-          width: 40%;
+          width: 45%;
+        }
+
+        .logo-socials {
+          width: 8%;
+          margin-right: 4.5%;
         }
 
         .logo {
@@ -124,7 +161,7 @@
         }
 
         .timer {
-          width: 46px;
+          width: 40px;
         }
 
         .timer-colon {
@@ -136,8 +173,10 @@
   <body>
     <div class="container">
       <div class="logo">
-        <img class="logo-image" src="img/devfest.webp" alt="Devfest Kolkata" />
+        <img class="logo-image" src="img/devfest.png" alt="Devfest Kolkata" />
       </div>
+
+      <div id="body-text">Registration Starts In</div>
 
       <div class="countdown-wrapper">
         <div id="countdown-text">
@@ -163,18 +202,45 @@
         </div>
       </div>
 
-      <div class="logo">
-        <br>
-        <a href="https://twitter.com/gdgkolkata"><img class="logo-socials" src="img/twitter.png" alt="Twitter GDG Kolkata" /></a>
-        <a href="http://www.linkedin.com/company/gdgkolkata"><img class="logo-socials" src="img/linkedin.webp" alt="LinkedIn GDG Kolkata" /></a>
-        <a href="https://www.instagram.com/gdgkolkata/"><img class="logo-socials" src="img/instagram.png" alt="Instagram GDG Kolkata"/></a>
-        <a href="https://www.facebook.com/GDGKolkata"><img class="logo-socials" src="img/facebook.png" alt="Facebook GDG Kolkata"/></a>
-        <a href="https://t.me/gdgkolkata"><img class="logo-socials" src="img/telegram.png" alt="Telegram GDG Kolkata"/></a>
+      <div class="socials">
+        <br />
+        <a href="https://twitter.com/gdgkolkata"
+          ><img
+            class="logo-socials"
+            src="img/twitter.svg"
+            alt="Twitter GDG Kolkata"
+        /></a>
+        <a href="http://www.linkedin.com/company/gdgkolkata"
+          ><img
+            class="logo-socials"
+            src="img/linkedin.svg"
+            alt="LinkedIn GDG Kolkata"
+        /></a>
+        <a href="https://www.instagram.com/gdgkolkata/"
+          ><img
+            class="logo-socials"
+            src="img/instagram.svg"
+            alt="Instagram GDG Kolkata"
+        /></a>
+        <a href="https://www.facebook.com/GDGKolkata"
+          ><img
+            class="logo-socials"
+            src="img/facebook.svg"
+            alt="Facebook GDG Kolkata"
+        /></a>
+        <a href="https://t.me/gdgkolkata"
+          ><img
+            class="logo-socials"
+            src="img/telegram.svg"
+            alt="Telegram GDG Kolkata"
+        /></a>
       </div>
 
       <script>
         // Set the date we're counting down to
-        var countDownDate = new Date("November 13, 2022 06:00:00 GMT+0200").getTime();
+        var countDownDate = new Date(
+          "Oct 16, 2022 06:00:00 GMT+0200"
+        ).getTime();
 
         // Update the count down every 1 second
         var x = setInterval(function () {
