@@ -2,12 +2,26 @@ body {
   background-color: #121212;
 }
 
-h1 {
+.header {
   margin: auto;
   text-align: center;
   font-size: 1.5rem;
   padding: 20px;
   color: goldenrod;
+}
+
+.logo-header {
+  margin: auto;
+  text-align: center;
+  padding-bottom: 2%;
+  font-size: 1rem;
+  color: whitesmoke;
+}
+
+hr {
+  width: 40%;
+  margin: auto;
+  border: 1px solid goldenrod;
 }
 
 .main-logo {
@@ -20,7 +34,7 @@ h1 {
 }
 
 .logos {
-  margin-top: 10%;
+  margin-top: 2%;
   text-align: center;
 }
 
