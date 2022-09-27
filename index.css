@@ -5,9 +5,9 @@ body {
 h1 {
   margin: auto;
   text-align: center;
-  font-size: small;
+  font-size: 1.5rem;
   padding: 20px;
-  color: white;
+  color: goldenrod;
 }
 
 .main-logo {
@@ -26,12 +26,13 @@ h1 {
 
 .logo {
   width: 10%;
+  height: 10%;
 }
 
 p {
   text-align: center;
-  font-size: small;
-  margin-top: 0px;
+  font-size: 2rem;
   color: aliceblue;
   margin-top: 5%;
+  margin-bottom: 10%;
 }
