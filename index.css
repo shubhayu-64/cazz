@@ -1,0 +1,35 @@
+body {
+  background-color: #121212;
+}
+
+h1 {
+  margin: auto;
+  text-align: center;
+  width: 50%;
+  padding: 20px;
+  color: white;
+}
+
+.main-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.logos {
+  text-align: center;
+}
+
+.logo {
+  width: 10%;
+}
+
+p {
+  text-align: center;
+  font-size: 60px;
+  margin-top: 0px;
+  color: aliceblue;
+}
